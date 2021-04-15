@@ -11,8 +11,7 @@ namespace AssemblySort
         public static void OpenFile(List<AssemblyProduct> assemblySort)
         {
             Console.WriteLine("Input file path");
-            //var filePath = Console.ReadLine();
-            var filePath = "C:\\Users\\PICHAU\\Desktop\\Teste.txt";
+            var filePath = Console.ReadLine();
             Console.WriteLine("Opening file at file path: " + filePath);
             AssemblySorter a = new AssemblySorter();
             try
